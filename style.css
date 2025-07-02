@@ -1,5 +1,4 @@
-/* [project]/src/app/globals.css [app-client] (css) */
-*, :before, :after, ::backdrop {
+:before, :after, ::backdrop {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -321,7 +320,6 @@ img, video {
 }
 
 body {
-  background-color: hsl(var(--background));
   color: hsl(var(--foreground));
 }
 
@@ -1127,10 +1125,6 @@ body {
   border-color: var(--color-border);
 }
 
-.border-border {
-  border-color: hsl(var(--border));
-}
-
 .border-border\/50 {
   border-color: hsl(var(--border) / .5);
 }
@@ -1202,7 +1196,7 @@ body {
 }
 
 .bg-card {
-  background-color: hsl(var(--card));
+  background-color: #000;
 }
 
 .bg-card\/50 {
